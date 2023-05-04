@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wrish</title>
+  <link rel="icon" type="image/x-icon" href="/assets/images/instagram-img/4.png">
+  <!-- Fontfamily -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,500&display=swap"
+    rel="stylesheet" />
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Owl-carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Animate-slide -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Flex-slider -->
+  <link rel="stylesheet" href="./assets/css/flexslider.css" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!-- Css -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body style="height: 140vh">
+  <!-- <header>
+      <section id="topbar">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+              <div class="topbar-left">
+                <ul>
+                  <li><a href="#">Order Tracking</a></li>
+                  <li><a href="#">FAQs</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+              <div class="topbar-right">
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><i class="fa-solid fa-location-dot"></i> Store
+                      Location</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa-regular fa-envelope"></i>
+                      support@wrish.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="navbar">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-7 col-lg-7 col-md-12 navbar-left">
+              <div class="navbar-logo">
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="./assets/images/settings/logo.png"
+                    alt="navbar-logo"
+                  />
+                </a>
+              </div>
+              <div class="navbar-content">
+                <ul>
+                  <li>
+                    <a href="#" class="active"
+                      >Home</a>
+                  </li>
+                  <li>
+                    <a href="#">Shop</a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >About
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      >Contact</i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#">FAQs</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-5 col-lg-5 col-md-12 navbar-right">
+              <div class="header-page">
+                <div class="login-header">
+                  <a href="login.html" class="login">LOGIN</a>
+                  <a href="resgister.html">REGISTER</a>
+                </div>
+                <div class="header-search">
+                  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                </div>
+                <div class="header-wishlist">
+                  <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div>
+                <a href="#"
+                ><div class="shopping-cart">
+                  <i class="fa-solid fa-bag-shopping basket-icon"></i>
+                  <span class="cart-count">2</span>
+                </div></a
+              >
+              </div>              
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="navbar-mobile">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3">
+              <div class="navbar-bars">
+                <a href="#"><i class="fa-solid fa-bars bars-icon"></i></a>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+              <div class="nav-mobile-logo">
+                <a href="#">
+                  <img
+                    class="img-fluid"
+                    src="./assets/images/settings/logo.png"
+                    alt="mobile-logo"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3 mobile-right">
+              <a href="#"
+                ><div class="shopping-cart">
+                  <i class="fa-solid fa-bag-shopping basket-icon"></i>
+                  <span class="cart-count">2</span>
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="mobile-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-3 col">
+              <div class="mobile-fixed-content">
+               <a href="#"><i class="fa-solid fa-store"></i></a>
+              </div>            
+            </div>
+            <div class="col-md-3 col-sm-3 col">
+              <div class="mobile-fixed-content">
+               <a href="#"><i class="fa-solid fa-user"></i></a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col">
+              <div class="mobile-fixed-content">
+               <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col"><div class="mobile-fixed-content">
+               <a href="#"><i class="fa-solid fa-heart"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>      
+      <section id="sidebar">
+        <div class="sidebar-header">
+          <span class="close-sidebar">Close<i class="fas fa-times"></i></span>
+        </div>
+        <div class="sidebar-content">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+      </section>
+      <section id="basketbar">
+        <div class="basketbar-header">
+          <span class="close-basketbar">Close<i class="fas fa-times"></i></span>
+        </div>
+      </section>
+    </header> -->
+  <header>
+    <section id="topbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div class="topbar-left">
+              <ul>
+                <li><a href="checkout.html">Order Tracking</a></li>
+                <li><a href="FAQs.html">FAQs</a></li>
+                <li><a href="#">Əlaqə</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+            <div class="topbar-right">
+              <ul>
+                <li>
+                  <a href="#"><i class="fa-solid fa-location-dot"></i>
+                    Adres</a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-regular fa-envelope"></i>
+                    support@perfumery.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="navbar">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-7 col-lg-7 col-md-12 navbar-left">
+            <div class="navbar-logo">
+              <a href="#">
+                <img class="img-fluid" src="./assets/images/settings/perfumery-logo.png" alt="navbar-logo" />
+              </a>
+            </div>
+            <div class="navbar-content">
+              <ul>
+                <li>
+                  <a href="#" class="active">Əsas Səhifə</a>
+                </li>
+                <li>
+                  <a href="#">Mallarımız</a>
+                </li>
+                <li>
+                  <a href="#">Haqqımızda
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Əlaqə</i></a>
+                </li>
+                <li>
+                  <a href="#">FAQs</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-5 col-lg-5 col-md-12 navbar-right">
+            <div class="header-page">
+              <div class="login-header">
+                <a href="login.html" class="login">DAXİL OL</a>
+                <a href="resgister.html">QEYDİYYAT</a>
+              </div>
+              <div class="header-search">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+              </div>
+              <div class="header-wishlist">
+                <a href="#"><i class="bi bi-heart"></i></a>
+              </div>
+              <a href="#">
+                <div class="shopping-cart basket-icon">
+                  <i class="bi bi-bag"></i>
+                  <span class="cart-count">2</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="navbar-mobile">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3">
+            <div class="navbar-bars">
+              <a href="#"><i class="fa-solid fa-bars bars-icon"></i></a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6">
+            <div class="nav-mobile-logo">
+              <a href="#">
+                <img class="img-fluid" src="./assets/images/settings/logo.png" alt="mobile-logo" />
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3 mobile-right">
+            <a href="#">
+              <div class="shopping-cart">
+                <i class="fa-solid fa-bag-shopping basket-icon"></i>
+                <span class="cart-count">2</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="mobile-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-3 col">
+            <div class="mobile-fixed-content">
+              <a href="#"><i class="fa-solid fa-store"></i></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col">
+            <div class="mobile-fixed-content">
+              <a href="#"><i class="fa-solid fa-user"></i></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col">
+            <div class="mobile-fixed-content">
+              <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-3 col">
+            <div class="mobile-fixed-content">
+              <a href="#"><i class="fa-solid fa-heart"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sidebar">
+      <div class="sidebar-header">
+        <span class="close-sidebar">Close<i class="fas fa-times"></i></span>
+      </div>
+      <div class="sidebar-content">
+        <ul>
+          <li><a href="#">ƏSAS SƏHİFƏ</a></li>
+          <li><a href="#">MALLARIMIZ</a></li>
+          <li><a href="#">HAQQIMIZDA</a></li>
+          <li><a href="#">ƏLAQƏ</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+    </section>
+    <section id="basketbar">
+      <div class="basketbar-header">
+        <span class="close-basketbar basket-icon">Bağla<i class="fas fa-times"></i></span>
+      </div>
+      <div class="top-total-cart">
+        Səbət (1)
+      </div>
+      <ul class="cart-list">
+        <li class="mini-cart-list">
+          <a class="remove" href="#"><i class="fa-solid fa-x"></i></a>
+          <a class="basket-item-img" href="#">
+            <div class="img-box">
+              <img class="img-fluid" src="./assets/images/best-seller/perfumes/kayali.jpg" alt="shock">
+            </div>
+          </a>
+          <a class="basket-item-name" href="#">VANILLA | 28</a>
+          <div class="quantity">Say: 2</div>
+          <span class="price">₼125.00</span>
+        </li>
+      </ul>
+
+      <div class="total-cart">
+        <div class="title-total">
+          Toplam:
+        </div>
+        <span class="total-price">₼250.00</span>
+      </div>
+      <div class="free-ship">
+        <div class="title-ship">Sizin pulsuz çatdırılmanız var!</div>
+        <div class="total-percent">
+          <div class="percent"></div><i class="fa-solid fa-truck"></i>
+        </div>
+      </div>
+      <div class="buttons">
+        <a class="viewcart-btn" href="checkout.html">SƏBƏTİ GÖSTƏR</a>
+        <a class="checkout-btn" href="checkout.html">SİFARİŞİ TAMAMLA</a>
+      </div>
+      <div class="empty d-none">
+        <i class="fa-solid fa-square-xmark shop-x"></i>
+        <span>Səbətdə heç bir mal yoxdur.</span>
+        <a href="#">MALLARA BAX<i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </section>
+
+  </header>
+  <main>
+    <section id="product-detail-slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="product-detail-left">
+              <div id="slider" class="flexslider">
+                <ul class="slides">
+                  <li>
+                    <img class="img-fluid" src="./assets/images/product-detail-slide/daisy1.jpg" />
+                  </li>
+                  <li>
+                    <img class="img-fluid" src="./assets/images/product-detail-slide/daisy2.jpg" />
+                  </li>
+                  <li>
+                    <img class="img-fluid" src="./assets/images/product-detail-slide/daisy3.jpg" />
+                  </li>
+                  <li>
+                    <img class="img-fluid" src="./assets/images/product-detail-slide/daisy4.jpg" />
+                  </li>
+                  <!-- <li>
+                    <img class="img-fluid" src="./assets/images/product-detail-slide/p24.jpg" />
+                  </li> -->
+                  <!-- items mirrored twice, total of 12 -->
+                </ul>
+              </div>
+              <div id="carousel" class="flexslider">
+                <ul class="slides">
+                  <li>
+                    <img class="img-fluid" src="./assets/images/product-detail-slide/daisy1.jpg" />
+                  </li>
+                  <li>
+                    <img class="img-fluid" src="./assets/images/product-detail-slide/daisy2.jpg" />
+                  </li>
+                  <li>
+                    <img class="img-fluid" src="./assets/images/product-detail-slide/daisy3.jpg" />
+                  </li>
+                  <li>
+                    <img class="img-fluid" src="./assets/images/product-detail-slide/daisy4.jpg" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Place somewhere in the <body> of your page -->
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="product-detail-right">
+              <div class="product-etab">
+                <a href="#">Əsas Səhifə</a><i class="fa-solid fa-arrow-right"></i>
+                <a href="#">Mallarımız</a><i class="fa-solid fa-arrow-right"></i>
+                <a href="#">Marc Jacobs Fragrances</a><i class="fa-solid fa-arrow-right"></i>
+                Daisy
+              </div>
+              <div class="detail-review">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <span class="review-count">(<span>1</span> alıcı qiymətləndirməsi)</span>
+              </div>
+              <h1 class="product-name">Daisy</h1>
+              <div class="price-single">
+                <div class="old-price"><span>₼</span>60.00</div>
+                <span>₼</span>49.00
+                <span class="discount-border">-18%</span>
+              </div>
+              <div class="description">
+                <p>
+                  Cazibədar sadə və keyfiyyət imzası ilə seçilən "Daisy Marc Jacobs" sizi nikbinlik, gözəllik və
+                  saflıqla
+                  dolu bir yerə aparır. Ətirin yuxarı hissəsi şirəli yabanı giləmeyvə və zərif ağ bənövşələrdə israr
+                  edir. Ürəyində məxməri yasəmən, romantik, uzun müddət davam edən bir finiş yaradaraq, həssas səndəl
+                  ağacının xəyalpərəst quruluğuna çevrilir.
+                </p>
+              </div>
+              <form method="post">
+
+                <div class="detail-addtocard">
+
+                  <div class="quantity">
+                    <button type="button" class="button minus" data-quantity="minus" data-field="quantity">
+                      <i class="fa fa-minus" aria-hidden="true"></i>
+                    </button>
+                    <input class="input-group-field" name="quantity" value="0">
+                    <button type="button" class="button hollow plus" data-quantity="plus" data-field="quantity">
+                      <i class="fa fa-plus" aria-hidden="true"></i>
+                    </button>
+                  </div>
+                  <button class="add" type="submit">SƏBƏTƏ ƏLAVƏ ET</button>
+                  <a class="wish-list" href="#"><i class="fa-solid fa-heart"></i></a>
+                </div>
+                <div class="detail-buy-now">
+                  <a href="buy-now">İNDİ AL</a>
+                </div>
+              </form>
+              <div class="detail-meta">
+                <span class="sku">SKU: <span>U2022</span></span>
+                <span class="sku">Kateqoriyalar: <span>Qadın</span></span>
+                <span class="sku">İstehsalçılar: <span>Marc Jacobs Fragrances</span></span>
+                <span class="sku">Teqlər:: <span>Yasəmən, Çiyələk, Qadın</span></span>
+              </div>
+              <div class="share">
+                Share:
+                <div class="social-share">
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="detail-tabmenu">
+      <div class="container">
+        <div class="d-flex align-items-start">
+          <div class="row w-100">
+            <div class="nav col-lg-2 flex-column" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home"
+                type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                <span>Haqqında</span>
+              </button>
+
+              <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile"
+                type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                <span>Rəylər (1)</span>
+              </button>
+            </div>
+            <div class="tab-content col-lg-10" id="v-pills-tabContent">
+              <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                aria-labelledby="v-pills-home-tab">
+                <p>
+                  Cazibədar sadə və keyfiyyət imzası ilə seçilən "Daisy Marc Jacobs" sizi nikbinlik, gözəllik və
+                  saflıqla
+                  dolu bir yerə aparır. Ətirin yuxarı hissəsi şirəli yabanı giləmeyvə və zərif ağ bənövşələrdə israr
+                  edir. Ürəyində məxməri yasəmən, romantik, uzun müddət davam edən bir finiş yaradaraq, həssas səndəl
+                  ağacının xəyalpərəst quruluğuna çevrilir.
+                </p>
+                <p>
+                  Daisy Marc Jacobs - un qarşısıalınmaz qadın ətri, parfümer ustası Alberto Morillasın cazibədar bir
+                  əsəridir.
+
+                  Başqa nə bilmək lazımdır:
+                  Qapağı bəzəyən şıltaq ağ çobanyastığı Daisy-nin ikonik şüşəsinə retro üslub verir — bu ətri taxan
+                  qadın qədər cazibədar və bənzərsizdir.
+
+                  Bu məhsul "Allure Best Of Beauty" mükafatının laureatıdır.
+                </p>
+              </div>
+              <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                <div class="review">
+                  <div class="comments">
+                    <h2>"<span>Daisy</span>" üçün rəylər</h2>
+                    <ol>
+                      <li>
+                        <div class="comment-content">
+                          <div class="profil-info">
+                            <img class="img-fluid" src="./assets/images/settings/53444f91e698c0c7caa2dbc3bdbf93fc.png"
+                              alt="profile-photo" />
+                            <div class="name-time">
+                              <p><strong>Şəbnəm</strong></p>
+                              <p>Oktyabr 4, 2022</p>
+                            </div>
+                          </div>
+                          <div class="description">
+                            <p>
+                              Çox gözəl təravətli
+                              ətri var. Hamıya tövsiyə edirəm!
+                            </p>
+                          </div>
+                          <div class="star-count">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          </div>
+                        </div>
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+                <div class="review-form">
+                  <span class="reply-title"><i class="fa-solid fa-pen"></i> RƏY ƏLAVƏ ET</span>
+                  <form method="post" id="comment-form">
+                    <p class="comment-notes">
+                      Sizin e-poçtunuz paylaşılmayacaq. Zəruri doldurulmalı yerlər ulduzlanıb
+                    </p>
+
+                    <div class="comment-form-rating">
+                      <span>Sizin qiymətləndirməniz</span>
+
+                      <div class="star-rating">
+                        <input id="star-5" type="radio" name="rating" value="star-5" />
+                        <label for="star-5" title="5 stars">
+                          <i class="active fa fa-star" aria-hidden="true"></i>
+                        </label>
+                        <input id="star-4" type="radio" name="rating" value="star-4" />
+                        <label for="star-4" title="4 stars">
+                          <i class="active fa fa-star" aria-hidden="true"></i>
+                        </label>
+                        <input id="star-3" type="radio" name="rating" value="star-3" />
+                        <label for="star-3" title="3 stars">
+                          <i class="active fa fa-star" aria-hidden="true"></i>
+                        </label>
+                        <input id="star-2" type="radio" name="rating" value="star-2" />
+                        <label for="star-2" title="2 stars">
+                          <i class="active fa fa-star" aria-hidden="true"></i>
+                        </label>
+                        <input id="star-1" type="radio" name="rating" value="star-1" />
+                        <label for="star-1" title="1 star">
+                          <i class="active fa fa-star" aria-hidden="true"></i>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-6 col-md-12">
+                        <div class="content-info-review">
+                          <div class="mb">
+                            <input type="text" class="form-control" id="name" placeholder="Ad *">
+                          </div>
+                          <div class="mb">
+                            <input type="email" class="form-control" id="email" placeholder="E-poçt *">
+                          </div>
+                        </div>
+                        <button type="submit" class="submit">TƏSDİQLƏ</button>
+                        <div class="mb"></div>
+                      </div>
+                      <div class="col-lg-6 col-md-12">
+                        <div class="comment-form-comment">
+                          <textarea class="form-control" placeholder="Rəyiniz" id="comment"
+                            style="min-height: 233px; max-height: 233px;"></textarea>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="related-products">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <h1>Əlaqəlİ mallar</h1>
+              <div class="title-line"></div>
+            </div>
+          </div>
+          <div class="modal fade" id="relatedModal" tabindex="-1" aria-labelledby="relatedModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <img class="img-fluid" src="./assets/images/best-seller/perfumes/valentinodonna.jpg" alt="">
+                </div>
+                <div class="modal-body">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="detail-review">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <span class="review-count">(<span>1</span> alıcı qiymətləndirməsi)</span>
+                  </div>
+                  <h1 class="product-name">Donna Born In Roma Eau de Parfum</h1>
+                  <div class="price-single">
+                    <div class="old-price"><span>₼</span>60.00</div>
+                    <span>₼</span>49.00
+                    <span class="discount-border">-18%</span>
+                  </div>
+                  <div class="description">
+                    <p>
+                      Bu, Roma küçə stilindən və cəsarətli yüksək modadan ilhamlanmış isti çiçəkli ətirdir.
+                      Yasəmən
+                      və parlaq qara qarağat çiçəklərinin üçlüyü mülayim vanil və zəngin odun notları ilə
+                      birləşərək
+                      müasir qadın zərifliyinin mahiyyətini əks etdirən ətir yaradır.
+                    </p>
+                  </div>
+                  <form method="post">
+
+                    <div class="detail-addtocard">
+
+                      <div class="quantity">
+                        <button type="button" class="button minus" data-quantity="minus" data-field="quantity">
+                          <i class="fa fa-minus" aria-hidden="true"></i>
+                        </button>
+                        <input class="input-group-field" name="quantity" value="0">
+                        <button type="button" class="button hollow plus" data-quantity="plus" data-field="quantity">
+                          <i class="fa fa-plus" aria-hidden="true"></i>
+                        </button>
+                      </div>
+                      <button class="add" type="submit">SƏBƏTƏ ƏLAVƏ ET</button>
+                      <a class="wish-list" href="#"><i class="fa-solid fa-heart"></i></a>
+                    </div>
+                    <div class="detail-buy-now">
+                      <a href="buy-now">İNDİ AL</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="owl-carousel owl-related">
+            <div class="product-body">
+              <div class="img-body">
+                <a href="#"><img class="img-fluid poster-img" src="./assets/images/related-products/perfumes/armani.jpg"
+                    alt="malverick"></a>
+                <a href="#"><img class="img-fluid hover-img"
+                    src="./assets/images/related-products/perfumes/armani_hover.jpg" alt="malveric-hover"></a>
+              </div>
+              <span class="discount-percent">-17%</span>
+              <div class="product-button animate__animated">
+                <a href="#"><i class="fa-solid fa-heart product-wishlist"></i></a>
+                <a href="#" class="lupa" data-bs-toggle="modal" data-bs-target="#relatedModal"><i
+                    class="fa-solid fa-magnifying-glass"></i></a>
+              </div>
+              <div class="product-content">
+                <a class="product-title" href="#">My Way Eau de Parfum</a>
+                <div class="price">
+                  <span class="amount">
+                    <bdi>₼<span class="old-price">120</span></bdi>
+                    <span class="dollar-symbol">₼</span>
+                    100
+                  </span>
+                </div>
+                <div class="btn-shop">
+                  <a class="add-to-card" href="#"><span>SƏBƏTƏ ƏLAVƏ ET</span><i
+                      class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="img-body">
+                <a href="#"><img class="img-fluid poster-img" src="./assets/images/related-products/perfumes/hermes.jpg"
+                    alt="malverick"></a>
+                <a href="#"><img class="img-fluid hover-img"
+                    src="./assets/images/related-products/perfumes/hermes_hover.jpg" alt="malveric-hover"></a>
+              </div>
+              <span class="discount-percent">-40%</span>
+              <div class="product-button animate__animated">
+                <a href="#"><i class="fa-solid fa-heart product-wishlist"></i></a>
+                <a href="#" class="lupa" data-bs-toggle="modal" data-bs-target="#relatedModal"><i
+                    class="fa-solid fa-magnifying-glass"></i></a>
+              </div>
+              <div class="product-content">
+                <a class="product-title" href="#">Un Jardin sur la Lagune Eau de Toilette</a>
+                <div class="price">
+                  <span class="amount">
+                    <bdi>$<span class="old-price">189</span></bdi>
+                    <span class="dollar-symbol">₼</span>
+                    50
+                  </span>
+                </div>
+                <div class="btn-shop">
+                  <a class="add-to-card" href="#"><span>SƏBƏTƏ ƏLAVƏ ET</span><i
+                      class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="img-body">
+                <a href="#"><img class="img-fluid poster-img" src="./assets/images/related-products/perfumes/malone.jpg"
+                    alt="malverick"></a>
+                <a href="#"><img class="img-fluid hover-img"
+                    src="./assets/images/related-products/perfumes/malone_hover.jpg" alt="malveric-hover"></a>
+              </div>
+              <div class="product-button animate__animated">
+                <a href="#"><i class="fa-solid fa-heart product-wishlist"></i></a>
+                <a href="#" class="lupa" data-bs-toggle="modal" data-bs-target="#relatedModal"><i
+                    class="fa-solid fa-magnifying-glass"></i></a>
+              </div>
+              <div class="product-content">
+                <a class="product-title" href="#">Mimosa & Cardamom Cologne</a>
+                <div class="price">
+                  <span class="amount">
+                    <span class="dollar-symbol">₼</span>
+                    150
+                  </span>
+                </div>
+                <div class="btn-shop">
+                  <a class="add-to-card" href="#"><span>SƏBƏTƏ ƏLAVƏ ET</span><i
+                      class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="img-body">
+                <a href="#"><img class="img-fluid poster-img" src="./assets/images/related-products/perfumes/viktor.jpg"
+                    alt="malverick"></a>
+                <a href="#"><img class="img-fluid hover-img"
+                    src="./assets/images/related-products/perfumes/viktor_hover.jpg" alt="malveric-hover"></a>
+              </div>
+              <span class="discount-percent">-46%</span>
+              <div class="product-button animate__animated">
+                <a href="#"><i class="fa-solid fa-heart product-wishlist"></i></a>
+                <a href="#" class="lupa" data-bs-toggle="modal" data-bs-target="#relatedModal"><i
+                    class="fa-solid fa-magnifying-glass"></i></a>
+              </div>
+              <div class="product-content">
+                <a class="product-title" href="#">Flowerbomb Ruby Orchid Eau de Parfum</a>
+                <div class="price">
+                  <span class="amount">
+                    <bdi>₼<span class="old-price">35</span></bdi>
+                    <span class="dollar-symbol">₼</span>
+                    19
+                  </span>
+                </div>
+                <div class="btn-shop">
+                  <a class="add-to-card" href="#"><span>SƏBƏTƏ ƏLAVƏ ET</span><i
+                      class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="product-body">
+              <div class="img-body">
+                <a href="#"><img class="img-fluid poster-img" src="./assets/images/related-products/perfumes/mugler.jpg"
+                    alt="malverick"></a>
+                <a href="#" class="lupa" data-bs-toggle="modal" data-bs-target="#relatedModal"><img
+                    class="img-fluid hover-img" src="./assets/images/related-products/perfumes/mugler_hover.jpg"
+                    alt="malveric-hover"></a>
+              </div>
+              <div class="product-button animate__animated">
+                <a href="#"><i class="fa-solid fa-heart product-wishlist"></i></a>
+                <a href="#" class="lupa" data-bs-toggle="modal" data-bs-target="#relatedModal"><i
+                    class="fa-solid fa-magnifying-glass"></i></a>
+              </div>
+              <div class="product-content">
+                <a class="product-title" href="#">Alien Goddess Eau de Parfum Intense</a>
+                <div class="price">
+                  <span class="amount">
+                    <span class="dollar-symbol">₼</span>
+                    150
+                  </span>
+                </div>
+                <div class="btn-shop">
+                  <a class="add-to-card" href="#"><span>SƏBƏTƏ ƏLAVƏ ET</span><i
+                      class="fa-solid fa-bag-shopping"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section id="wrish-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <div class="footer-adress">
+              <div class="footer-logo">
+                <img class="img-fluid" src="./assets/images/settings/perfumery-logo.png" alt="footer-logo">
+              </div>
+              <p class="adress">Hüseyn Cavid prospekti xx</p>
+              <p class="email">sayhello@perfumery.com</p>
+              <p class="phone">+994 (50) xxx xx xx</p>
+              <div class="social-icon">
+                <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://nba.com"><i class="fa-brands fa-dribbble"></i></a>
+                <a href="https://wordpress.com"><i class="fa-brands fa-behance"></i></a>
+                <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <div class="footer-content">
+              <h2>MƏLUMAT</h2>
+              <ul>
+                <li><a href="#">Çatdırılma</a></li>
+                <li><a href="#">Zəmanət</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Məxfilik siyasəti</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <div class="footer-content">
+              <h2>Kömək</h2>
+              <ul>
+                <li><a href="#">Əlaqə</a></li>
+                <li><a href="#">Haqqımızda</a></li>
+                <li><a href="#">Rəylər</a></li>
+                <li><a href="#">Xidmət şərtləri</a></li>
+                <li><a href="#">Geri qaytarılma</a></li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col">
+            <div class="footer-content">
+              <h2>XİDMƏTLƏR</h2>
+              <ul>
+                <li><a href="#">Satış</a></li>
+                <li><a href="#">Tez çatdırılma</a></li>
+                <li><a href="#">Yeni ətirlər</a></li>
+                <li><a href="#">Protection Plan</a></li>
+                <li><a href="#">Hədiyyə açıqcaları</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <div class="copyright">
+              Copyright © 2021. Bütün hüquqlar qorunur
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+            <div class="copyright-link">
+              <a href="#">Məxfilik</a>
+              <a href="#">Razılaşma</a>
+              <a href="#">Promo T&Cs Apply</a>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12">
+            <div class="copyright-img">
+              <img src="./assets/images/settings/paymet.png" class="w-100" alt="payment">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <!-- ONLY FOR THIS PAGE -->
+  <script src="./assets/js/stars.js"></script>
+  <script src="./assets/js/addToBasket.js"></script>
+  <!-- JQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Owl-Carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- Vendor -->
+  <script src="./assets/vendor/plugin.js"></script>
+  <script src="./assets/vendor/jquery.flexslider-min.js"></script>
+  <!-- MainJS -->
+  <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
